@@ -1,0 +1,285 @@
+$darker-background: #1e1e1e;
+$dark-background: #353535;
+$light-border: #949494;
+$dark-border: #6b6b6b;
+$text-on-dark: #ffffff;
+
+.log-box, 
+.profile-box,
+ul.dropdown-menu,
+.nav > li > a:hover, 
+.nav > li > a:focus,
+.nav .open > a, 
+.nav .open > a:hover, 
+.nav .open > a:focus 
+.nav .open > a,
+.ember-power-select-search,
+.table-striped > tbody > tr:nth-of-type(odd),
+button {
+ background-color: $darker-background;
+}
+
+.dropdown-menu > li > a {
+  color: $text-on-dark;
+  background-color: $darker-background;
+}
+
+.ember-basic-dropdown-trigger,
+.ember-power-select-option,
+.ember-power-select-dropdown.ember-basic-dropdown-content {
+  background-color: $darker-background;
+  color: $text-on-dark;
+  border-color: $dark-border;
+}
+
+.ember-power-select-option[aria-current="true"],
+.ember-power-select-option[aria-selected="true"] {
+  color: $darker-background;
+}
+
+.dropdown-divider {
+  border-top: 1px solid $light-border;
+}
+
+.markdown-editor,
+.fs3-divider {
+  background-color: $dark-background;
+}
+
+.btn-default {
+  background-color: $darker-background;
+  border-color: $darker-background;
+  color: $text-on-dark;
+}
+
+textarea, input {
+  background-color: $darker-background;
+  border: 1px solid $dark-border;
+}
+
+.alert-info {
+  background-color: mix(black, #0dcaf0, 80%);
+  border-color: mix(black, #0dcaf0, 80%);
+  color: $text-on-dark;
+}
+
+.alert-success {
+  background-color: mix(black, #198754, 80%);
+  border-color: mix(black, #198754, 80%);
+  color: $text-on-dark;
+}
+
+.alert-warning {
+  background-color: mix(black, #ffc107, 80%);
+  border-color: mix(black, #ffc107, 80%);
+  color: $text-on-dark;
+}
+
+.alert-danger {
+  background-color: mix(black, #dc3545, 80%);
+  border-color: mix(black, #dc3545, 80%);
+  color: $text-on-dark;
+}
+
+
+.btn-info {
+  background-color: mix(black, #0dcaf0, 60%);
+  border-color: $light-border;
+  color: $text-on-dark;
+}
+
+.btn-success {
+  background-color: mix(black, #198754, 60%);
+  border-color: $light-border;
+  color: $text-on-dark;
+}
+
+.btn-warning {
+  background-color: mix(black, #ffc107, 60%);
+  border-color: $light-border;
+  color: $text-on-dark;
+}
+
+.btn-danger {
+  background-color: mix(black, #dc3545, 60%);
+  border-color: $light-border;
+  color: $text-on-dark;
+}
+
+.btn-secondary {
+  background-color: mix(black, #6c757d, 60%);  
+  border-color: $light-border;
+  color: $text-on-dark;
+}
+
+.btn-primary {
+  border-color: $light-border;
+}
+
+
+.panel-default > .panel-heading {
+  background-color: $darker-background;
+  border-color: $darker-background;
+  color: $text-on-dark;
+}
+
+.nav-tabs,
+.nav-tabs>li>a, 
+.nav-tabs > li.active > a {
+  border-color: $dark-border;
+  
+}
+
+.nav-tabs>li>a:hover, 
+.nav-tabs>li>a:focus,
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus { 
+  border-color: $dark-border;
+  background-color: #cccccc;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #F0CF64;
+}
+
+blockquote {
+  background-color: $dark-background;
+}
+
+code {
+  color: #3C866E;
+}
+
+pre code {
+color: #3C866E;
+width: 70%;
+}
+
+.toc, .log-box, .profile-box, .profile-image {
+  background-color: $darker-background;
+
+}
+
+.profile-divider {
+  background-color: #000000;
+}
+
+.title-wrap {
+   background-color: rgba(0, 0, 0, 0);
+}
+
+.status-message {
+   background-color: #0D4370
+}
+
+.col-md-9.body-container.left-body, .row.profile-wrap, .jumbotron,
+{
+   background-color: rgba(0, 0, 0, 0);
+}
+
+.body-wrap {
+   background-color: rgba(0, 0, 0, 0.75);
+}
+
+#ember11.ember-view {
+background-color: rgba(0, 0, 0, .5);
+}
+
+.col.col-12.col-md-9, .col.col-12.col-md-3, .col.col-xs-12, .col.col-md-12, .col-md-3.right-sidebar, .profile-tab {
+   background-color: rgba(0, 0, 0, 0);
+}
+
+#chat-window {
+background-color: rgba(30, 30, 30, 1);
+}
+
+h1, .roster-char-title {
+background-image: url('https://cdn.discordapp.com/attachments/1074447132024639640/1119309601020579910/tiddly.winks_A_midnight_blue_starry_sky._Crystal_clear_image._H_247b7b05-3c4a-4270-8a8b-54f1f2af1322.png');
+}
+
+body {
+  background-image: url('https://cdn.discordapp.com/attachments/1074447132024639640/1118265317953650898/tiddly.winks_A_torn_sky_that_goes_from_starry_night_to_sunset.__81e272d8-3c66-4cb9-882e-9cd72e0a77d5.png');
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@350&family=Open+Sans:wght@400&display=swap');
+body {
+  font-family: 'Open Dyslexic', 'Open Sans', sans-serif;
+}
+
+.renown-line {
+  padding: 5px;
+  border-bottom: 1px solid #c0c0c0; }
+
+
+.site-title {
+display: none;
+}
+
+.job-category-ALERT {
+  color: white;
+  background-color: #FF0000;
+}
+
+.job-category-SYS {
+  color: white;
+  background-color: #FF0000;
+}	
+		 
+.job-category-PLOT {
+  color: white;
+  background-color: #0000FF;
+}	
+
+.job-category-RP {
+  color: white;
+  background-color: #0000FF;
+}	 
+
+.job-category-FBK-CHARGEN{
+  color: white;
+  background-color: #2ebf2e;
+}
+
+.job-category-FBK-WIKI{
+  color: white;
+  background-color: #2ebf2e;
+}	
+ .body-wrap, .header-wrap nav, .title-wrap, #ember11.ember-view {
+    margin: 0px auto;
+    max-width: 1300px;
+}
+.border-img {
+    margin: 0px auto !important;
+    display: block;
+}
+
+#systemfs3sheet > div > .row .col {
+    width: 100%;
+    max-width: 100%;
+}
+
+#systemfs3sheet > div > .row > .col table {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 50%;
+}
+
+#systemfs3sheet > div > .row > .col table tr {
+    min-width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#systemfs3sheet > div > .row > .col table tr td {
+    border-bottom: 1px solid #949494;
+    padding: 8px;
+    flex: 0 1 135px;
+    white-space: nowrap;
+    min-width: 135px;
+    max-width: 135px;
+}
